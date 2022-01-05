@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
-import EffectTutorial from './EffectTutorial';
 import FormState from './FormState';
 import IncrementState from './IncrementState';
 import Reducer from './Reducer';
+import RefTutorial from './RefTutorial';
+
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <IncrementState/>
       <FormState/>
       <Reducer/>
-      <EffectTutorial/>
+      {/* <EffectTutorial/> */}
+      <RefTutorial/>
     </div>
   );
 }
